@@ -5,6 +5,18 @@ Whenever you want to display custom items in listview, then only way to achieve 
 
 This library is designed on [ViewHolder] (http://developer.android.com/training/improving-layouts/smooth-scrolling.html#ViewHolder) design pattern, it provides an easier way of linking multiple type rows and their underlying data. The EasyAdapters will do most of tedious work for you & all you have to do is create your small modular classes & link them together. 
 
+<table align= 'center'>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+</table>
+
+<img src='./Extras/Images/Screenshots/1.png' width='190' height='288' />
+<img src='./Extras/Images/Screenshots/2.png' width='190' height='288' />
+<img src='./Extras/Images/Screenshots/3.png' width='190' height='288' />
+<img src='./Extras/Images/Screenshots/4.png' width='190' height='288' />
+
 Features
 ========
 
