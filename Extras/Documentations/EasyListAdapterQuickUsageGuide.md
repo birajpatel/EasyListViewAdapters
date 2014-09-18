@@ -1,3 +1,5 @@
+Defining POJO Classes
+===
 
 ```java
 
@@ -18,7 +20,8 @@ class ViewHolder1 {
 }
 
 ```
-* Linking your POJO to ViewHolder in a RowViewSetter class.
+Linking your POJO to ViewHolder in a RowViewSetter class.
+====
 
 ```java
 
@@ -27,6 +30,7 @@ class RowViewSetter1 implements ListRowViewSetter<Row1, ViewHolder1> {
 	@Override
 	public int getRowType() {
 		// return unique row type identifier (0-based)
+		return RowTypes.ROW_1.ordinal();
 	}
 
 	@Override
@@ -56,7 +60,8 @@ class RowViewSetter1 implements ListRowViewSetter<Row1, ViewHolder1> {
 
 ```
 
-* Telling adapter about your row.
+Telling adapter about your row.
+====
 
 ```java
 class MyEasyListAdapter extends EasyListAdapter<RowParent> {
@@ -79,9 +84,16 @@ class MyEasyListAdapter extends EasyListAdapter<RowParent> {
 }
 ```
 
-* **Adding new row becomes simple as shown below**
+Adding new row becomes simple as shown below
+====
 
 ```java
+
+//Update RowTypes Enum
+enum RowTypes {
+	ROW_1,ROW_2
+}
+
 // Create New POJO & View Holder
 class Row2 extends RowParent {
 	// Child-2
@@ -102,3 +114,5 @@ to
 ListRowViewSetter<?, ?>[] rows = { new RowViewSetter1(), new RowViewSetter2() };
 
 ```
+Done
+====
