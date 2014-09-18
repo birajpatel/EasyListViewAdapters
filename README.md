@@ -5,18 +5,6 @@ Whenever you want to display custom items in listview, then only way to achieve 
 
 This library is designed on [ViewHolder] (http://developer.android.com/training/improving-layouts/smooth-scrolling.html#ViewHolder) design pattern, it provides an easier way of linking multiple type rows and their underlying data. The EasyAdapters will do most of tedious work for you & all you have to do is create your small modular classes & link them together. 
 
-<table align= 'center'>
-<tr>
-<td> </td>
-<td> </td>
-</tr>
-</table>
-
-<img src='./Extras/Images/Screenshots/1.png' width='190' height='288' />
-<img src='./Extras/Images/Screenshots/2.png' width='190' height='288' />
-<img src='./Extras/Images/Screenshots/3.png' width='190' height='288' />
-<img src='./Extras/Images/Screenshots/4.png' width='190' height='288' />
-
 Features
 ========
 
@@ -40,6 +28,46 @@ Supported Data-types
 * **EasyCursorAdapter** : works with android.database.Cursor
 
 **Note** : **EasyCursorAdapter** doesn't provide any mechanism to requery attached Cursor (Like traditional CursorAdapter), This behaviour is intentionally omitted as it has been deprecated from Android Sources as well.Instead use [CursorLoader Mechanism](https://developer.android.com/training/load-data-background/setup-loader.html).
+
+Using EasyListAdapter
+=====
+
+Check [Quick-Usage-Guide](/Extras/Documentations/EasyListAdapterQuickUsageGuide.md)
+
+Using EasyCursorAdapter
+=====
+
+Check [Quick-Usage-Guide](/Extras/Documentations/EasyCursorAdapterQuickUsageGuide.md)
+
+Sample-App screenshots
+====================
+
+<table align= 'center' border = "0">
+<tr>
+<td><img src='./Extras/Images/Screenshots/2.png' width='190' height='288' /></td>
+<td><img src='./Extras/Images/Screenshots/3.png' width='190' height='288' /></td>
+<td><img src='./Extras/Images/Screenshots/4.png' width='190' height='288' /></td>
+</tr>
+<tr>
+<td align = 'center' >EasyListAdapter</td>
+<td align = 'center'>EasyCursorAdapter</td>
+<td align = 'center'>Demo Screen</td>
+</tr>
+</table>
+
+
+How to understand Sample-App
+====================
+
+<img src='./Extras/Documentations/steps.png' width='300' height='432' />
+
+* **1** For basic step by step explaination read [SimplestEasyListAdapterUsageDemoActivity.java](https://github.com/birajpatel/EasyListViewAdapters/blob/master/EasyListViewAdaptersDemo/src/com/birin/easylistadapter/demo1/SimplestEasyListAdapterUsageDemoActivity.java)
+* **2** Read other EasyListAdapter's Demo.
+* **3** Read other EasyCursorAdapter's Demo.
+
+Progaurd
+========
+No need to add any extra config.
 
 Debugging 
 =========
