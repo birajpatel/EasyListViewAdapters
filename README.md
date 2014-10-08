@@ -1,6 +1,8 @@
 EasyListViewAdapters
 ====================
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyListViewAdapters-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1034)
+
 Whenever you want to display custom items in listview, then only way to achieve this is to implement your own subclass of BaseAdapter, handle all rendering, recycling, click handling ,data browsing youself in getView() method. It becomes very messy as number of rows increase in your adapter, Making your code very messy & non-reusable. This library allows you to make Modular classes which will help you to introduce new row type easily.
 
 This library is designed on [ViewHolder] (http://developer.android.com/training/improving-layouts/smooth-scrolling.html#ViewHolder) design pattern, it provides an easier way of linking multiple type rows and their underlying data. The EasyAdapters will do most of tedious work for you & all you have to do is create your small modular classes & link them together. 
