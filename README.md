@@ -21,6 +21,20 @@ Features
 * Load More callbacks can be registered to implement **paginatation support** to your list.
 * **Handling children viewclicks**, you can also register for Children(present inside your rows) view click events. All these Views are registered with single OnClickListner so that this mechanism is very **memory efficient** when click event occurs users you gets clickedChildView, rowData,int eventId as callback params.
 
+Adding to your project using gradle
+============
+```groovy
+repositories {
+    maven {
+        url "https://dl.bintray.com/birajpatel/easylistviewadapters/"
+    }
+}
+```
+```groovy
+compile 'com.birin:easylistviewadapters:1.0.0'
+```
+
+
 Compatibility
 =========
 * **Library** : API 4+(DONUT)
