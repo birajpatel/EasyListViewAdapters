@@ -6,7 +6,7 @@ version = "1.0.0"
 
 repositories {
     maven {
-        url "http://dl.bintray.com/birajpatel/maven"
+        url "https://dl.bintray.com/birajpatel/easylistviewadapters"
     }
 }
 
@@ -96,7 +96,7 @@ bintray {
 
     configurations = ['archives']
     pkg {
-        repo = "maven"
+        repo = "easylistviewadapters"
         name = "EasyListViewAdapters"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
