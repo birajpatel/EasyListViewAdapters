@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    maven {
+        url "https://dl.bintray.com/birajpatel/easylistviewadapters/"
+    }
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.birin.easylistviewadaptersdemo"
+        minSdkVersion 11
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.birin:easylistviewadapters:1.0.0'
+}

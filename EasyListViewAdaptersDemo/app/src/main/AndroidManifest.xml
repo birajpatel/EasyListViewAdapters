@@ -16,7 +16,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.birin.easylistviewadaptersdemo"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -24,9 +24,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <provider
             android:name="com.birin.easycursoradapter.datasetup.TestContentProvider"
             android:authorities="com.birin.easycursoradapter.datasetup.TestContentProvider"
@@ -34,7 +34,7 @@
 
         <activity
             android:name="com.birin.easylistviewadaptersdemo.ParentDemoMenuList"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,40 +45,27 @@
         <!-- Parent menus -->
         <activity
             android:name="com.birin.easylistviewadaptersdemo.JavaUtilListDataDemos"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.birin.easylistviewadaptersdemo.CursorDataDemos"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
 
         <!-- EasyListAdapter Usage demos -->
         <activity
             android:name="com.birin.easylistadapter.demo1.SimplestEasyListAdapterUsageDemoActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity android:name="com.birin.easylistadapter.demo2.SingleRowTypeActivity" >
-        </activity>
-        <activity android:name="com.birin.easylistadapter.demo3.TwoRowTypesActivity" >
-        </activity>
-        <activity android:name="com.birin.easylistadapter.demo4.ChildrenClickingDemoActivity" >
-        </activity>
-        <activity android:name="com.birin.easylistadapter.demo5.UnlimitedItemsTwoRowTypesActivityAutoloadMore" >
-        </activity>
-        <activity android:name="com.birin.easylistadapter.demo6.UnlimitedItemsTwoRowTypesActivityAutoloadMoreMax100Items" >
-        </activity>
-        <activity android:name="com.birin.easylistadapter.demo7.UnlimitedItemsTwoRowTypesActivityClickToloadMore" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.birin.easylistadapter.demo2.SingleRowTypeActivity"></activity>
+        <activity android:name="com.birin.easylistadapter.demo3.TwoRowTypesActivity"></activity>
+        <activity android:name="com.birin.easylistadapter.demo4.ChildrenClickingDemoActivity"></activity>
+        <activity android:name="com.birin.easylistadapter.demo5.UnlimitedItemsTwoRowTypesActivityAutoloadMore"></activity>
+        <activity android:name="com.birin.easylistadapter.demo6.UnlimitedItemsTwoRowTypesActivityAutoloadMoreMax100Items"></activity>
+        <activity android:name="com.birin.easylistadapter.demo7.UnlimitedItemsTwoRowTypesActivityClickToloadMore"></activity>
 
         <!-- EasyCursorAdapter Usage demos -->
-        <activity android:name="com.birin.easycursoradapter.demo1.TwoRowTypesActivity" >
-        </activity>
-        <activity android:name="com.birin.easycursoradapter.demo2.ChildrenClickingDemoActivity" >
-        </activity>
-        <activity android:name="com.birin.easycursoradapter.demo3.UnlimitedItemsTwoRowTypesActivityAutoloadMore" >
-        </activity>
-        <activity android:name="com.birin.easycursoradapter.demo4.UnlimitedItemsTwoRowTypesActivityClickToloadMore" >
-        </activity>
+        <activity android:name="com.birin.easycursoradapter.demo1.TwoRowTypesActivity"></activity>
+        <activity android:name="com.birin.easycursoradapter.demo2.ChildrenClickingDemoActivity"></activity>
+        <activity android:name="com.birin.easycursoradapter.demo3.UnlimitedItemsTwoRowTypesActivityAutoloadMore"></activity>
+        <activity android:name="com.birin.easycursoradapter.demo4.UnlimitedItemsTwoRowTypesActivityClickToloadMore"></activity>
     </application>
 
 </manifest>
