@@ -79,7 +79,7 @@ How to understand Sample-App
 
 <img src='./Extras/Documentations/steps.png' width='300' height='432' />
 
-* **1** For basic step by step explaination read [SimplestEasyListAdapterUsageDemoActivity.java](https://github.com/birajpatel/EasyListViewAdapters/blob/master/EasyListViewAdaptersDemo/src/com/birin/easylistadapter/demo1/SimplestEasyListAdapterUsageDemoActivity.java)
+* **1** For basic step by step explaination read [SimplestEasyListAdapterUsageDemoActivity.java](https://github.com/birajpatel/EasyListViewAdapters/blob/master/Studio/EasyListViewAdaptersDemo/app/src/main/java/com/birin/easylistadapter/demo1/SimplestEasyListAdapterUsageDemoActivity.java)
 * **2** Read other EasyListAdapter's Demo.
 * **3** Read other EasyCursorAdapter's Demo.
 
